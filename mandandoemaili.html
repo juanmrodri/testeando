@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test para envio de mail por php</title>
+</head>
+
+<body>
+    <form action="send.php" method="POST">
+        <div class="row">
+            <div class="col-25">
+                <label for="name" class="label">Name</label>
+            </div>
+            <div class="col-75">
+                <input type="text" class="x" id="name" name="name" placeholder="Your name..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="email" class="label">Email</label>
+            </div>
+            <div class="col-75">
+                <input type="text" class="x" id="email" name="email" placeholder="Your last name..">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-25">
+                <label for="message" class="label">Message</label>
+            </div>
+            <div class="col-75">
+                <textarea id="message" class="x" name="message" placeholder="Write something.."
+                    style="height:200px"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <input type="button" class="sub" value="Submit">
+        </div>
+    </form>
+</body>
+
+</html>
